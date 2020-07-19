@@ -175,3 +175,59 @@ header .icons li {
 .info .description .date {
   margin-bottom: Calc(var(--top-bottom-padding) / 2);
 }
+
+.upNext > .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--top-bottom-padding) var(--side-padding);
+  font-size: var(--font-medium);
+}
+
+.upNext .title .autoplay {
+  display: flex;
+}
+
+.upNext .nextVideo ul {
+  display: flex;
+  flex-direction: column;
+  padding: var(--top-bottom-padding) var(--side-padding);
+}
+
+.upNext .nextVideo ul .item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.upNext .nextVideo ul .item .image {
+  flex: 1 1 35%;
+  margin-right: var(--side-padding);
+}
+
+.upNext .nextVideo ul .item .image img {
+  width: 100%;
+}
+
+.upNext .nextVideo ul .item .metadata {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upNext .nextVideo ul .item .metadata .title {
+  font-size: var(--font-big);
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+
+.upNext .nextVideo ul .item .metadata .name {
+  font-size: var(--font-small);
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+
+.upNext .nextVideo ul .item .metadata .views {
+  font-size: var(--font-medium);
+}
+
+.upnext .nextVideo ul .item .moreBtn {
+  flex: 1 1 5%;
+}
