@@ -231,3 +231,72 @@ header .icons li {
 .upnext .nextVideo ul .item .moreBtn {
   flex: 1 1 5%;
 }
+
+.comment {
+  border-top: 1px solid;
+  border-color: var(--light-grey-color);
+}
+
+.comment .title {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--top-bottom-padding) var(--side-padding);
+  font-size: var(--font-medium);
+}
+
+.comment .addComment {
+  padding: var(--top-bottom-padding) var(--side-padding);
+}
+
+.comment .addComment i {
+  margin-right: var(--side-padding);
+  font-size: var(--font-big);
+}
+
+.comment .addComment input {
+  border: none;
+  font-size: var(--font-medium);
+}
+
+.comment .comments {
+  display: flex;
+  padding: var(--top-bottom-padding) var(--side-padding);
+}
+
+.comment .comments > i {
+  padding: 0 var(--side-padding);
+  font-size: var(--font-big);
+}
+.comment .comments .commentAndmetadata {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment .comments .commentAndmetadata .comment {
+  border: none;
+  font-size: medium;
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+
+.comment .comments .commentAndmetadata .metadata {
+  font-size: var(--font-small);
+}
+
+.comment .comments .buttons {
+  display: flex;
+  padding: 0;
+  font-size: var(--font-medium);
+}
+
+.comment .comments .buttons i {
+  margin-right: Calc(var(--side-padding) * 2);
+}
+
+.comment .comments .buttons span {
+  margin-right: var(--side-padding);
+}
+
+.comment .comments .buttons li .clicked {
+  color: var(--blue-color);
+  margin-right: var(--side-padding);
+}
