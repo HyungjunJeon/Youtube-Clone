@@ -1,0 +1,29 @@
+:root {
+  /* Color */
+  --red-color: #d50000;
+  --blue-color: #304ffe;
+  --light-grey-color: #bdbdbd;
+  --dark-grey-color: #212121;
+  --white-color: #fafafa;
+
+  /* Size */
+  --top-bottom-padding: 8px;
+  --side-padding: 12px;
+  --font-small: 10px;
+  --font-medium: 15px;
+  --font-big: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white-color);
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
