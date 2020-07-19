@@ -89,3 +89,89 @@ header .icons li {
 .videoplayer video {
   width: 100%;
 }
+
+.info .metadata {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--top-bottom-padding) var(--side-padding);
+}
+.info .titleAndViews {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .titleAndViews .title {
+  font-size: var(--font-medium);
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+
+.info .titleAndViews .views {
+  font-size: var(--font-small);
+}
+
+.info .buttons {
+  display: flex;
+  justify-content: space-around;
+  font-size: var(--font-medium);
+}
+
+.info .buttons li {
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+.info .buttons .clicked {
+  color: var(--blue-color);
+}
+
+.info .profileAndSubscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--top-bottom-padding) var(--side-padding);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--light-grey-color);
+}
+
+.info .profileAndSubscribe .profile {
+  display: flex;
+}
+
+.info .profileAndSubscribe .profile i {
+  margin-right: var(--side-padding);
+  font-size: var(--font-big);
+}
+
+.info .profileAndSubscribe .profile .nameAndSubscribers {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .profileAndSubscribe .profile .nameAndSubscribers .name {
+  font-size: var(--font-medium);
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
+
+.info .profileAndSubscribe .profile .nameAndSubscribers .subscribers {
+  font-size: var(--font-small);
+}
+
+.info .profileAndSubscribe .subscribeAndAlarm {
+  display: flex;
+  font-size: var(--font-medium);
+}
+.info .profileAndSubscribe .subscribeAndAlarm button .fa-youtube {
+  padding: 0 var(--side-padding);
+  color: var(--light-grey-color);
+}
+
+.info > .description {
+  display: flex;
+  flex-direction: column;
+  padding: var(--top-bottom-padding) var(--side-padding);
+  border-bottom: 1px solid;
+  border-color: var(--light-grey-color);
+}
+
+.info .description .date {
+  margin-bottom: Calc(var(--top-bottom-padding) / 2);
+}
