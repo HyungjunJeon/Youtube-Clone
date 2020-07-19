@@ -87,73 +87,76 @@
       </div>
     </section>
 
-    <!--UpNext-->
-    <section class="upNext">
-      <div class="title">
-        <span>다음 동영상</span>
-        <ul class="autoplay">
-          <li>자동재생</li>
-          <button>
-            <li><i class="fas fa-toggle-on"></i></li>
-          </button>
-        </ul>
-      </div>
-      <div class="nextVideo">
-        <ul>
-          <li class="item">
-            <div class="image"><img src="image/husky.jpg" alt="" /></div>
-            <div class="metadata">
-              <span class="title">허스키</span>
-              <span class="name">전형준</span>
-              <span class="views">조회수 1천</span>
-            </div>
-            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-          </li>
-          <li class="item">
-            <div class="image"><img src="image/lake.jpg" alt="" /></div>
-            <div class="metadata">
-              <span class="title">호수</span>
-              <span class="name">전형준</span>
-              <span class="views">조회수 1천</span>
-            </div>
-            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-          </li>
-          <li class="item">
-            <div class="image"><img src="image/landscape.jpg" alt="" /></div>
-            <div class="metadata">
-              <span class="title">풍경</span>
-              <span class="name">전형준</span>
-              <span class="views">조회수 1천</span>
-            </div>
-            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!--Comments-->
-    <section class="comment">
-      <div class="title">
-        <span>댓글 1</span>
-        <i class="fas fa-list"></i>
-      </div>
-      <div class="addComment">
-        <i class="fas fa-user-circle"></i>
-        <input type="text" placeholder="공개 댓글 추가..." />
-      </div>
-      <div class="comments">
-        <i class="fas fa-user-circle"></i>
-        <div class="commentAndmetadata">
-          <span class="comment"> Very Nice View ;)</span>
-          <span class="metadata">Anonymous 1주 전</span>
-          <ul class="buttons">
-            <li><i class="fas fa-thumbs-up clicked"></i></li>
-            <span>1</span>
-            <li><i class="fas fa-thumbs-down"></i></li>
-            <li><i class="fas fa-comment-alt"></i></li>
+    <!-- Grouping UpNext And Comments For Responsive-->
+    <div class="upNextAndComment">
+      <!--UpNext-->
+      <section class="upNext">
+        <div class="title">
+          <span>다음 동영상</span>
+          <ul class="autoplay">
+            <li>자동재생</li>
+            <button>
+              <li><i class="fas fa-toggle-on"></i></li>
+            </button>
           </ul>
         </div>
-      </div>
-    </section>
+        <div class="nextVideo">
+          <ul>
+            <li class="item">
+              <div class="image"><img src="image/husky.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">허스키</span>
+                <span class="name">전형준</span>
+                <span class="views">조회수 1천</span>
+              </div>
+              <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+              <div class="image"><img src="image/lake.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">호수</span>
+                <span class="name">전형준</span>
+                <span class="views">조회수 1천</span>
+              </div>
+              <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+              <div class="image"><img src="image/landscape.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">풍경</span>
+                <span class="name">전형준</span>
+                <span class="views">조회수 1천</span>
+              </div>
+              <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Comments-->
+      <section class="comment">
+        <div class="title">
+          <span>댓글 1</span>
+          <i class="fas fa-list"></i>
+        </div>
+        <div class="addComment">
+          <i class="fas fa-user-circle"></i>
+          <input type="text" placeholder="공개 댓글 추가..." />
+        </div>
+        <div class="comments">
+          <i class="fas fa-user-circle"></i>
+          <div class="commentAndmetadata">
+            <span class="comment"> Very Nice View ;)</span>
+            <span class="metadata">Anonymous 1주 전</span>
+            <ul class="buttons">
+              <li><i class="fas fa-thumbs-up clicked"></i></li>
+              <span>1</span>
+              <li><i class="fas fa-thumbs-down"></i></li>
+              <li><i class="fas fa-comment-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

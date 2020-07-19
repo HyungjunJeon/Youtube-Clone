@@ -300,3 +300,35 @@ header .icons li {
   color: var(--blue-color);
   margin-right: var(--side-padding);
 }
+
+@media screen and (min-width: 768px) {
+  header .searchboxAndButton {
+    display: inline-block;
+  }
+
+  .videoplayer {
+    position: static;
+  }
+
+  .videoplayer video {
+    max-width: 90%;
+  }
+
+  .upNextAndComment {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .upNextAndComment .upNext {
+    flex: 1 1 25%;
+    border-top: none;
+    order: 1;
+  }
+
+  .upNextAndComment .comment {
+    flex: 1 1 75%;
+    border-top: none;
+    border-right: 1px solid;
+    border-color: var(--light-grey-color);
+  }
+}
