@@ -80,3 +80,12 @@ header .icons {
 header .icons li {
   margin-right: var(--side-padding);
 }
+
+.videoplayer {
+  text-align: center;
+  background-color: var(--dark-grey-color);
+}
+
+.videoplayer video {
+  width: 100%;
+}
